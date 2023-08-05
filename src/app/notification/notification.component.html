@@ -1,0 +1,127 @@
+<div class="content" style="background-color:  rgb(223, 222, 222);">
+    <nav class="navbar navbar-expand-lg navbar-light custom-bg" >
+        <div class="container-fluid">
+            <a class="navbar-brand">Notification</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" style="position: absolute; right: 0px;" id="navbarSupportedContent">
+                <!-- Add ml-auto class to the form to align it to the right -->
+                <form class="d-flex ml-auto">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit"><mat-icon
+                            class="mat-co">search</mat-icon></button>
+                </form>
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="">
+                            <mat-icon class="mat-co">dashboard</mat-icon>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="">
+                            <mat-icon class="mat-co">table_chart</mat-icon>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="">
+                            <mat-icon class="mat-co">maps</mat-icon>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <div class="container-fluid">
+            <div class="card" style="margin-top: 30px;">
+                <div class="card-header card-header-danger" style="background-color: rgb(255, 45, 45);">
+                    <h3 class="card-title">Notifications</h3>
+                    <p class="card-category">Handcrafted by our friend
+                        <a target="_blank">Elon Musk</a>. Please checkout the
+                        <a target="_blank">full documentation.</a>
+                    </p>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-6">
+                            <h4 class="card-title">Notifications Style</h4>
+                            <div class="alert alert-info">
+                                <span>This is a plain notification</span>
+                            </div>
+                            <div class="alert alert-info">
+                                <button mat-button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <i class="material-icons">close</i>
+                                </button>
+                                <span>This is a notification with close button.</span>
+                            </div>
+                            <div class="alert alert-info alert-with-icon" data-notify="container">
+                                <i class="material-icons" data-notify="icon">add_alert</i>
+                                <button mat-button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <i class="material-icons">close</i>
+                                </button>
+                                <span data-notify="message">This is a notification with close button and icon.</span>
+                            </div>
+                            <div class="alert alert-info alert-with-icon" data-notify="container">
+                                <i class="material-icons" data-notify="icon">add_alert</i>
+                                <button mat-button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <i class="material-icons">close</i>
+                                </button>
+                                <span data-notify="message">This is a notification with close button and icon and have many lines. You can see that the icon and the close button are always vertically aligned. This is a beautiful notification. So you don't have to worry about the style.</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h4 class="card-title">Notification states</h4>
+                            <div class="alert alert-info">
+                                <button mat-button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <i class="material-icons">close</i>
+                                </button>
+                                <span>
+                                    <b> Info - </b> This is a regular notification made with ".alert-info"</span>
+                            </div>
+                            <div class="alert alert-success">
+                                <button mat-button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <i class="material-icons">close</i>
+                                </button>
+                                <span>
+                                    <b> Success - </b> This is a regular notification made with ".alert-success"</span>
+                            </div>
+                            <div class="alert alert-warning">
+                                <button mat-button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <i class="material-icons">close</i>
+                                </button>
+                                <span>
+                                    <b> Warning - </b> This is a regular notification made with ".alert-warning"</span>
+                            </div>
+                            <div class="alert alert-danger">
+                                <button mat-button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <i class="material-icons">close</i>
+                                </button>
+                                <span>
+                                    <b> Danger - </b> This is a regular notification made with ".alert-danger"</span>
+                            </div>
+                            <div class="alert alert-primary">
+                                <button mat-button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <i class="material-icons">close</i>
+                                </button>
+                                <span>
+                                    <b> Primary - </b> This is a regular notification made with ".alert-primary"</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="container-fluid">
+            <div class="row" style="margin-top: 35px;">
+            </div>
+        </div>
+    </div>
+</div>
+
+  

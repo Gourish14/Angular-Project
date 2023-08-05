@@ -1,0 +1,29 @@
+<div class="" style="width: 100%; height: 100%;">
+  <mat-grid-list cols="6" rowHeight="100%" style="width: 100%">
+    <!-- Sidebar -->
+    <mat-grid-tile colspan="1" style="border: 1px solid gainsboro; height: 100%; width: 100%">
+      <div class="sidebar" style="background-color: rgb(250, 249, 249); width: 100%; height: 100%">
+        <mat-list class="" style="width: 100%">
+          <a class="navbar-brand" style="background-color: rgb(151, 151, 227);">
+            <img src="../../assets/images/logo.png" width="250px" height="40px" alt="Logo" style="padding-top: 10px; padding-left: 10px;border-bottom: 1px solid black; padding-bottom: 10px;" />
+          </a>
+          <a mat-list-item routerLink="dashboard" class="item-li"><mat-icon class="mat-co">dashboard</mat-icon>Dashboard</a>
+          <a mat-list-item routerLink="user-profile" class="item-li"><mat-icon class="mat-co">person</mat-icon>User Profile</a>
+          <a mat-list-item routerLink="table-list" class="item-li"><mat-icon class="mat-co">table_chart</mat-icon>Table List</a>
+          <a mat-list-item routerLink="" class="item-li"><mat-icon class="mat-co">text_format</mat-icon>Tyography</a>
+          <a mat-list-item routerLink="" class="item-li"><mat-icon class="mat-co">build</mat-icon>Icon</a>
+          <a mat-list-item routerLink="" class="item-li"><mat-icon class="mat-co">maps</mat-icon>Maps</a>
+          <a mat-list-item routerLink="notification" class="item-li"><mat-icon class="mat-co">notifications</mat-icon>Notification</a>
+        </mat-list>
+      </div>
+    </mat-grid-tile>
+    <!--Nav Bar-->
+    <mat-grid-tile colspan="5">
+      <div style="height: 100%; overflow: auto;">
+      <div class="content" style="background-color: rgb(250, 249, 249); width: 100%; height: 100%;">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
